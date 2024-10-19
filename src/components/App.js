@@ -63,10 +63,10 @@ const App = () => {
         Clear List
       </button>
       <ul>
-        {items.map((item) => (
-          <li key={item} id={`item-${item}`}>
-            {item}
-            <button id={`remove-${item}`} onClick={() => removeItem(item)}>
+        {items.map((items) => (
+          <li key={items} id={`item-${items}`}>
+            {items}
+            <button id={`remove-${items}`} onClick={() => removeItem(item)}>
               Remove
             </button>
           </li>
