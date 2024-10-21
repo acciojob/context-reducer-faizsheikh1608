@@ -50,7 +50,7 @@ const App = () => {
         Sign Out
       </button>
       <div id="current-user">
-        Current user: rohan, isAuthenticated: {isAuthenticated ? "Yes" : "No"}
+        Currents user: rohan, isAuthenticated: {isAuthenticated ? "Yes" : "No"}
       </div>
       <input
         id="shopping-input"
